@@ -12,7 +12,9 @@ body {
     overflow-x: hidden;
     overflow-y: scroll;
     perspective: 1px;
+    -webkit-perspective: 1px;
     perspective-origin: 0 0;
+    -webkit-perspective-origin: 0 0;
     -webkit-overflow-scrolling: touch;
     font-family: Helvetica, Tahoma, Arial, "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
 }
