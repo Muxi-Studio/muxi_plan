@@ -15,7 +15,6 @@ body {
     -webkit-perspective: 1px;
     perspective-origin: 0 0;
     -webkit-perspective-origin: 0 0;
-    -webkit-overflow-scrolling: touch;
     font-family: Helvetica, Tahoma, Arial, "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
 }
 #header {
@@ -28,25 +27,33 @@ body {
 }
 #content {
     z-index: 3;
-    background-color: #ffffff;
-    margin-top: 10px;
+    position: absolute;
+    top: 0;
 }
 .banner {
     background-image: url('./images/background.png');
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 146px;
+    position: relative;
+}
+
+.banner-box {
     display: flex;
     align-content: center;
     align-items: center;
     height: 146px;
-    position: relative;
+    background: transparent;
 }
 .banner-word {
     height: 110px;
     width: 150px;
     display: block;
 }
-
+.background {
+    background: #ffffff;
+    padding-top: 17px;
+}
 .full-width {
     width: 100%;
 }
