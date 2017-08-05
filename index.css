@@ -17,6 +17,10 @@ body {
     -webkit-perspective-origin: 0 0;
     font-family: Helvetica, Tahoma, Arial, "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
 }
+
+a {
+    text-decoration: none;
+}
 #header {
     transform-origin: 0 0;
     transform: translateZ(-2px) scale(3);
@@ -90,7 +94,6 @@ body {
     margin-top: 25px;
 }
 
-
 .box {
     width: 36%;
     height: 25px;
@@ -118,4 +121,8 @@ body {
     width: 15px;
     height: 12px;
     display: block;
+}
+
+.display {
+    display: inline-block;
 }
