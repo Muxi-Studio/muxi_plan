@@ -1,0 +1,7 @@
+
+muxiplan:
+    build: . 
+    command: gunicorn --name muxiplan -b 0.0.0.0:5477 -w 2 wsgi:app 
+    ports: 
+        - "5477:5477" 
+
