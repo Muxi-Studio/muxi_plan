@@ -26,6 +26,7 @@ a {
 #header {
     transform-origin: 0 0;
     transform: translateZ(-2px) scale(3);
+    -webkit-transform: translateZ(-2px) scale(3);
     z-index: -1;
     position: relative;
     -webkit-transform-style: preserve-3d;
@@ -96,8 +97,6 @@ a {
     margin-top: 25px;
 }
 
-
-
 .box {
     width: 36%;
     height: 25px;
@@ -125,4 +124,8 @@ a {
     width: 15px;
     height: 12px;
     display: block;
+}
+
+.link-color {
+    color: #f90d76;
 }
