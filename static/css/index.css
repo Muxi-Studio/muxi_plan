@@ -44,17 +44,6 @@ a {
     text-decoration: none;
 }
 
-
-/* #header {
-    transform-origin: 0 0;
-    transform: translateZ(-2px) scale(3);
-    -webkit-transform: translateZ(-2px) scale(3);
-    z-index: -1;
-    position: relative;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-} */
-
 #content {
     z-index: 3;
     position: absolute;
